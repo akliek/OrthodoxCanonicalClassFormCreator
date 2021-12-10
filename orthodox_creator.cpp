@@ -6,7 +6,7 @@
 /*   By: akliek <akliek@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/10 13:19:01 by akliek            #+#    #+#             */
-/*   Updated: 2021/12/10 13:22:15 by akliek           ###   ########.fr       */
+/*   Updated: 2021/12/10 16:53:28 by akliek           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ void	createSrcFile(std::string file, std::string name)
 	fout << name << "::" << name << "(const " << name << " &copy)\n{" << std::endl;
 	fout << "\tstd::cout << \"Copy constructor called\" << std::endl;\n\t*this = copy;\n}\n" << std::endl;
 	fout << name << "\t&" << name << "::" << "operator = (const " << name << " &copy)\n{" << std::endl;
-	fout << "\tstd::cout << \"Assignation operator called\" << std::endl;\n}" << std::endl;
+	fout << "\tstd::cout << \"Assignation operator called\" << std::endl;\n\treturn (*this);\n}" << std::endl;
 
 	fout.close();
 }
