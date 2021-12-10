@@ -12,3 +12,7 @@ This class always has:
 
 # How to use?
 
+Clone this repo to your PC:
+```
+git clone 
+```
