@@ -1,4 +1,4 @@
-# Orthodox
+# Orthodox canonical class form creator
 
 This program creates a header with a class and a src file of class in Orthodox canonical form.
 
@@ -11,5 +11,4 @@ This class always has:
     - An assignation operator overload.
 
 # How to use?
-
 
