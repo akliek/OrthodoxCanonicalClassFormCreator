@@ -28,7 +28,7 @@ Then run next command:
 Done ✅ Now you have a canocical orthodox class form in a couple of seconds.
 # Tip
 
-To be able to use this form any folder you can move it into the brew binary folder. For 42 PC, go to cloned repo, do make and run following cammand:
+To be able to use this from any folder you can move it into the brew binary folder. For 42 PC, go to cloned repo, do make and run following cammand:
 ```
 mv orthodox ~/.brew/bin
 ```
