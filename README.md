@@ -12,7 +12,16 @@ This class always has:
 
 # How to use?
 
-Clone this repo to your PC:
+Clone this repo:
 ```
-git clone 
+git clone <repository url>
 ```
+Go in this folder and run following command:
+```
+make
+```
+Then run next command:
+```
+./orthodox <class_name>
+```
+Done ✅ Now you have canocical orthodox class form in a couple of seconds.
