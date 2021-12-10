@@ -1,3 +1,3 @@
 # Orthodox
 
-This program creates a Header with class and src file of class in Orthodox canonical form.
+This program creates a header with a class and a src file of class in Orthodox canonical form.
