@@ -24,4 +24,4 @@ Then run next command:
 ```
 ./orthodox <class_name>
 ```
-Done ✅ Now you have canocical orthodox class form in a couple of seconds.
+Done ✅ Now you have a canocical orthodox class form in a couple of seconds.
